@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta name="description" content="architecture Flask_bootstrap_jquery">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!--CSS & BOOSTRAP-->
+        <link rel="stylesheet" href="{{url_for('static', filename='css/bootstrap.min.css')}}">
+
+    </head>
+    <body>
+        <div class="container">
+            {% block nav %}
+                {% include 'base/nav.html' %}
+            {% endblock %}
+
+            {% block header %}
+                {%include 'base/header.html'%}
+            {%endblock%}
+
+            {%block content%}
+            {%endblock%}
+
+            {%block footer%}
+                {%include 'base/footer.html'%}
+            {%endblock%}
+        </div>
+
+        <!--JAVASCRIPT & JQUERY-->
+        <script src="{{url_for('static', filename='js/jquery.min.js')}}"></script>
+        <script src="{{url_for('static', filename='js/bootstrap.min.js')}}"></script>
+    </body>
+</html>
