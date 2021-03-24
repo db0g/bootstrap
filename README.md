@@ -12,7 +12,7 @@ L'objectif de ce projet est d'utilisé les bases de bootstrap (navbar, col, row,
 
 ![Flask-Logo](https://github.com/db0g/bootstrap/blob/main/static/img/Flask-Logo.png)
 
-installer jquery
+installé jquery
 
 ![jquery-logo](https://github.com/db0g/bootstrap/blob/main/static/img/jquery-logo.jpg)
 
