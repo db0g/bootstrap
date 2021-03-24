@@ -14,7 +14,7 @@ L'objectif de ce projet est d'utilisé les bases de bootstrap (navbar, col, row,
 
 installer jquery
 
-![jquery-logo](C:\Users\Damie\Desktop\_Projects\envPyDev\bootstrap\static\img\jquery-logo.jpg)
+![jquery-logo](https://github.com/db0g/bootstrap/blob/main/static/img/jquery-logo.jpg)
 
 utilisé git
 
