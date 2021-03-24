@@ -18,4 +18,4 @@ installé jquery
 
 utilisé git
 
-![github_logo](C:\Users\Damie\Desktop\_Projects\envPyDev\bootstrap\static\img\github_logo.png)
+![github_logo](https://github.com/db0g/bootstrap/blob/main/static/img/github_logo.png)
