@@ -6,7 +6,7 @@ L'objectif de ce projet est d'utilisé les bases de bootstrap (navbar, col, row,
 
 ![Capture1](https://github.com/db0g/bootstrap/blob/main/static/img/Capture1.png)
 
-![capture2](C:\Users\Damie\Desktop\_Projects\envPyDev\bootstrap\static\img\capture2.png)
+![capture2](https://github.com/db0g/bootstrap/blob/main/static/img/capture2.png)
 
 ​	j'ai effectué ce projet sur le framework Flask
 
