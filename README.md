@@ -4,7 +4,7 @@
 
 L'objectif de ce projet est d'utilisé les bases de bootstrap (navbar, col, row, margin, padding, border, carousel, width, height, ...) le tout bien évidement responsive.
 
-![Capture1](C:\Users\Damie\Desktop\_Projects\envPyDev\bootstrap\static\img\Capture1.png)
+![Capture1](https://github.com/db0g/bootstrap/blob/main/static/img/Capture1.png)
 
 ![capture2](C:\Users\Damie\Desktop\_Projects\envPyDev\bootstrap\static\img\capture2.png)
 
