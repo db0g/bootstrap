@@ -13,6 +13,10 @@ def width_height():
 def alert_modal():
     return render_template('pages/alert_modal.html')
 
+@app.route('/carousel')
+def carousel():
+    return render_template('pages/carousel.html')
+
 if (__name__) == '__main__':
     app.run(debug=True)
 

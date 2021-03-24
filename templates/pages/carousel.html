@@ -1,0 +1,42 @@
+{% extends 'base/layout.html' %}
+
+{% block content %}
+<div id="carousel_boostrap" class="carousel slide col-sm-12 mt-5" data-ride="carousel">
+
+    <!-- Indicators -->
+    <ul class="carousel-indicators">
+      <li data-target="#carousel_boostrap" data-slide-to="0" class="active"></li>
+      <li data-target="#carousel_boostrap" data-slide-to="1"></li>
+      <li data-target="#carousel_boostrap" data-slide-to="2"></li>
+      <li data-target="#carousel_boostrap" data-slide-to="3"></li>
+      <li data-target="#carousel_boostrap" data-slide-to="4"></li>
+    </ul>
+    
+    <!-- The slideshow -->
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="{{url_for('static', filename='img/bootstrap.jfif')}}" alt="bootstrap" width="100%" height="300px">
+      </div>
+      <div class="carousel-item">
+        <img src="{{url_for('static', filename='img/heroku.webp')}}" alt="heroku" width="100%" height="300px">
+      </div>
+      <div class="carousel-item">
+        <img src="{{url_for('static', filename='img/jquery-logo.jpg')}}" alt="jquery" width="100%" height="300px">
+      </div>
+      <div class="carousel-item">
+        <img src="{{url_for('static', filename='img/Flask-Logo.png')}}" alt="flask" width="100%" height="300px">
+      </div>
+      <div class="carousel-item">
+        <img src="{{url_for('static', filename='img/github_logo.png')}}" alt="github" width="100%" height="300px">
+      </div>
+    </div>
+    
+    <!-- Left and right controls -->
+    <a class="carousel-control-prev" href="#carousel_boostrap" data-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </a>
+    <a class="carousel-control-next" href="#carousel_boostrap" data-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </a>
+  </div>
+{% endblock %}
