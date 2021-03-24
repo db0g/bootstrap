@@ -10,7 +10,7 @@ L'objectif de ce projet est d'utilisé les bases de bootstrap (navbar, col, row,
 
 ​	j'ai effectué ce projet sur le framework Flask
 
-![Flask-Logo](C:\Users\Damie\Desktop\_Projects\envPyDev\bootstrap\static\img\Flask-Logo.png)
+![Flask-Logo](https://github.com/db0g/bootstrap/blob/main/static/img/Flask-Logo.png)
 
 installer jquery
 
