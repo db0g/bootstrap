@@ -1,4 +1,4 @@
-<u></u>![](C:\Users\Damie\Desktop\_Projects\envPyDev\bootstrap\static\img\Capture4.png)
+<u></u>![](https://github.com/db0g/bootstrap/blob/main/static/img/Capture4.png)
 
 ### <u>Projet Bootstrap</u>
 
