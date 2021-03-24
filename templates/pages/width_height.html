@@ -1,0 +1,33 @@
+{% extends 'base/layout.html'%}
+
+{% block content %}
+<div class="container bg-dark text-center text-light p-3 mb-5">
+    <h1>BOOTSTRAP Class WIDTH & HEIGHT</h1>
+</div>
+<div class="w-25 bg-success">
+    <p>Width 25%</p>
+</div>
+<div class="w-50 bg-primary">
+    <p>Width 50%</p>
+</div>
+<div class="w-75 bg-warning">
+    <p>Width 75%</p>
+</div>
+<div class="w-100 bg-danger">
+    <p>Width 100%</p>
+</div>
+<div class="mw-100 bg-dark">
+    <p>Max Width 100%</p>
+</div>
+
+<div class="col-sm-12 text-center" style=" height:200px;background-color:#ddd">
+    <div class="h-25 d-inline-block p-2 bg-success col-sm-2">Height 25%</div>
+    <div class="h-50 d-inline-block p-2 bg-primary col-sm-2">Height 50%</div>
+    <div class="h-75 d-inline-block p-2 bg-warning col-sm-2">Height 75%</div>
+    <div class="h-100 d-inline-block p-2 bg-danger col-sm-2">Height 100%</div>
+    <div class="mh-100 d-inline-block p-2 bg-dark col-sm-2" style="height:500px">Max Height 100%</div>
+</div>
+
+
+
+{% endblock %}

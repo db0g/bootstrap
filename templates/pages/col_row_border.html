@@ -1,7 +1,9 @@
 {% extends 'base/layout.html' %}
 
 {% block content %}
-
+<div class="container bg-dark text-center text-light p-3 mb-5">
+    <h1>BOOTSTRAP Class COL, ROW & BORDER</h1>
+</div>
 <div class="col-12">
     <div class="row">
         <div class="col-6 bg-danger">
@@ -72,36 +74,31 @@
             <p>col-md-5 mx-auto</p>
         </div>
     </div>
-    <div class="border border-dark">
+    <div class="border border-dark text-center">
         <p>border border-dark</p>
     </div>
-    <div class="border border-top-0 border-primary mt-4">
-        <p>border border-top-0 border-success</p>
+    <div class="border border-top-0 border-primary mt-4 text-center">
+        <p>border border-top-0 border-primary</p>
     </div>
-    <div class="border border-right-0 border-danger mt-4">
-        <p>border border-right-0 border-success</p>
+    <div class="border border-right-0 border-danger mt-4 text-center">
+        <p>border border-right-0 border-danger</p>
     </div>
-    <div class="border border-bottom-0 border-warning mt-4">
-        <p>border border-bottom-0 border-success</p>
+    <div class="border border-bottom-0 border-warning mt-4 text-center">
+        <p>border border-bottom-0 border-warning</p>
     </div>
-    <div class="border border-left-0 border-success mt-4">
+    <div class="border border-left-0 border-success mt-4 text-center">
         <p>border border-left-0 border-success</p>
     </div>
-    <div class="w-25 bg-dark">
-        <p>Width 25%</p>
+    <div class="border border-dark rounded mt-5 mb-5 text-center">
+        <p>border border-dark rounded</p>
     </div>
-    <div class="w-50 bg-primary">
-        <p>Width 50%</p>
-    </div>
-    <div class="w-75 bg-danger">
-        <p>Width 75%</p>
-    </div>
-    <div class="w-100 bg-warning">
-        <p>Width 100%</p>
-    </div>
-    <div class="mw-100 bg-success">
-        <p>Max Width 100%</p>
-    </div>
+
+
+</div>
+
+
+
+
 </div>
 
 {% endblock %}
